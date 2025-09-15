@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+}
+
+.container-sea {
+	flex: 1;
+	background-color: #004080;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.container-sea img {
+	width: 300px;
+	height: auto;
+	object-fit: contain;
+	position: relative;
+	bottom: 170px;
+	animation: floatBoat 7s infinite ease-in-out;
+}
+
+.container-sky {
+	flex: 3;
+	background: linear-gradient(to top, #87ceeb, #858fe4);
+	position: relative;
+	overflow: hidden;
+}
+
+.container-sky img {
+	width: 300px;
+	height: auto;
+	object-fit: contain;
+	position: absolute;
+	top: 50px;
+	left: 100%;
+	animation: cloudMove 20s linear infinite;
+}
+
+@keyframes cloudMove {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-120vw);
+	}
+}
+
+@keyframes floatBoat {
+	0% {
+		transform: translate(-300px, -5px);
+	}
+	50% {
+		transform: translate(300px, 5px);
+	}
+	100% {
+		transform: translate(-300px, -5px);
+	}
+}
