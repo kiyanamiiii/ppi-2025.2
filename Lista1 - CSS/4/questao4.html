@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Questão 4</title>
+		<link rel="stylesheet" href="/Lista1 - CSS/4/questao4.css" />
+	</head>
+	<body>
+		<!-- Estilo 1
+        Fiz isso aqui usando flexbox, mas poderia ser feito com grid também.
+        coloquei uma div container para segurar as caixas e aplicar o flexbox nela. Com um tamanho de flex 1 para cada caixa, elas se ajustam igualmente ao tamanho da tela, height e width em 100vh e vw para ajustar à pagina inteira. 
+        -->
+
+		<!-- Estilo 2
+        Fiz isso aqui usando flexbox, mas poderia ser feito com grid também.
+        coloquei uma div container para segurar as caixas e aplicar o flexbox nela. Com um tamanho de flex 1 para cada caixa, elas se ajustam igualmente ao tamanho da tela, height em 25vh e width em 100vw para se ajustar em quadrados, além disso removido flex direction. 
+        -->
+
+		<!-- Estilo 3
+         Fiz isso usando position absoluta em vez de flex ou grid, porque o objetivo era deixar os quadrados nos cantos da tela e um no meio. Coloquei o body com position: relative para servir de referência. Cada .box tem position: absolute com top, left, right ou bottom para posicionar nos cantos, e o quadrado do meio usa top: 50%, left: 50% e transform: translate(-50%, -50%) para centralizar perfeitamente. O tamanho de cada caixa é fixo (100px por 100px), garantindo que fiquem quadrados, e o display: flex dentro de cada .box centraliza o número no meio da caixa.
+        -->
+
+		<!-- Tags estilos 1 e 2 
+		<div class="container">
+            <div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+			<div class="box">4</div>
+		</div>
+        -->
+
+		<div class="box box1">1</div>
+		<div class="box box2">2</div>
+		<div class="box box3">3</div>
+		<div class="box box4">4</div>
+		<div class="box box5">5</div>
+	</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+	background: #f9f9f9;
+	padding: 20px;
+	font-size: 18px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+/* Estilos de cada parágrafo */
+p.p1 {
+	font-family: Georgia, serif;
+	color: darkred;
+}
+
+p.p2 {
+	font-family: "Courier New", monospace;
+	color: darkblue;
+}
+
+p.p3 {
+	font-family: Verdana, sans-serif;
+	color: darkgreen;
+}
+
+p.p4 {
+	font-family: "Times New Roman", serif;
+	color: darkorange;
+}
+
+/* Estilos personalizados para palavras com <span> */
+span.destaque1 {
+	background: yellow;
+	font-weight: bold;
+}
+
+span.destaque2 {
+	text-decoration: underline;
+	color: purple;
+}
+
+span.destaque3 {
+	font-style: italic;
+	background: lightgray;
+}
