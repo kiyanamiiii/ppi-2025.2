@@ -5,6 +5,10 @@ body {
 	position: relative;
 }
 
+body:hover {
+	animation: girar infinite linear 1s;
+}
+
 .box {
 	width: 100px;
 	height: 100px;
@@ -44,4 +48,15 @@ body {
 	bottom: 0;
 	right: 0;
 	background: purple;
+}
+
+@keyframes girar {
+	0% {
+		rotate: 0deg;
+		scale: 0.8;
+	}
+	100% {
+		rotate: 360deg;
+		scale: 0.8;
+	}
 }
