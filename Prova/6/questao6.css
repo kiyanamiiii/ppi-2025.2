@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+}
+
+.container-japan {
+	justify-content: center;
+	align-items: center;
+}
+
+.container-france {
+}
+
+.container-italy {
+	flex-direction: row !important;
+}
+
+.container-japan,
+.container-france,
+.container-italy {
+	border: dotted 1px black;
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	width: 35vw;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	margin: auto;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.stripe {
+	flex: 1;
+}
