@@ -1,3 +1,5 @@
+var i = 0;
+
 btn = document.createElement("button");
 btn.id = "btn";
 btn.innerText = "Clica ae faz favor";
@@ -15,4 +17,7 @@ document.body.style.alignItems = "center";
 document.body.style.flexDirection = "column";
 
 addEventListener;
-btn.addEventListener("click", () => (prg.innerText = "Safadeza"));
+btn.addEventListener("click", () => {
+	i++;
+	prg.innerText = i;
+});
