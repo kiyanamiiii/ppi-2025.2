@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>IMC</title>
+		<link rel="stylesheet" href="/Lista1/4/questao4.css" />
+	</head>
+	<body>
+		<div>
+			<h1>Calculadora de IMC</h1>
+			<form id="imcForm">
+				<label for="weight">Peso (kg):</label>
+				<input
+					type="number"
+					id="peso"
+					name="peso"
+					required
+					step="0.1"
+				/><br /><br />
+				<label for="height">Altura (m):</label>
+				<input
+					type="number"
+					id="altura"
+					name="altura"
+					required
+					step="0.01"
+				/><br /><br />
+				<button type="submit">Calcular IMC</button>
+			</form>
+			<div id="result"></div>
+			<img
+				id="imgPerfil"
+				src=""
+				alt="Perfil IMC"
+				style="display: none; max-width: 200px"
+			/>
+		</div>
+		<script src="/Lista1/4/questao4.js"></script>
+	</body>
+</html>
