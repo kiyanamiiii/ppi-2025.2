@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+#listaSorteio {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
