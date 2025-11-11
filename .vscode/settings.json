@@ -6,5 +6,8 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.aiStats.enabled": false,
-	"editor.formatOnPaste": true
+	"editor.formatOnPaste": true,
+	"[php]": {
+		"editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+	}
 }
