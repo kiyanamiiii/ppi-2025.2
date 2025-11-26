@@ -8,8 +8,6 @@
 </head>
 
 <body>
-    salve
-
     <?php
     echo "Olá, Mundo!";
     $nome = "salve";
@@ -71,11 +69,13 @@
         <br>
         <input type="submit" name="" id="" value="Calcular">
     </form>
+
     <?php
     if (isset($_GET['n1'])) {
         echo $soma;
     }
     ?>
+
 </body>
 
 </html>
